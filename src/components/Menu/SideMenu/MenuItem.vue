@@ -64,11 +64,8 @@
 </template>
 
 <script>
-// import SubMenuItem from './MenuItem'
-
 export default {
   name: 'MenuItem',
-  // components: { SubMenuItem },
   props: {
     menu: {
       type: Object,

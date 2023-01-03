@@ -52,15 +52,14 @@
     </quasar-template-builder>
   </div>
 </template>
-
 <script>
+import Router from 'src/router/Router.vue'
+import AlaaFooter from 'components/Widgets/Footer/Footer.vue'
+import KeepAliveComponents from 'assets/js/KeepAliveComponents.js'
+import templateHeader from 'components/Template/templateHeader.vue'
 import SideMenuDashboard from 'components/Menu/SideMenu/SideMenu-dashboard.vue'
 import QuasarTemplateBuilder from 'quasar-template-builder/src/quasar-template-builder.vue'
-import templateHeader from 'components/Template/templateHeader.vue'
-import Router from 'src/router/Router.vue'
-import KeepAliveComponents from 'assets/js/KeepAliveComponents.js'
 // import { setHeight } from 'src/boot/page-builder'
-import AlaaFooter from 'components/Widgets/Footer/Footer.vue'
 
 export default {
   components: {
