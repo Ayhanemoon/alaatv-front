@@ -1,8 +1,5 @@
 <template>
   <div class="cart-container">
-    <div v-if="host">
-      ({{ host }})
-    </div>
     <template v-if="loading && !isEwanoUser">
       <q-skeleton type="circle" />
     </template>
@@ -62,7 +59,6 @@ export default {
   mixins: [mixinAuth, mixinEwano],
   data () {
     return {
-      host: null,
       loading: false,
       hasPaid: false
     }
@@ -81,16 +77,8 @@ export default {
     this.$bus.on('ThankYouPageInvoiceLoading', (status) => {
       this.loading = status
     })
-    // alaa-app://alaatv.com/payment
-    if (Capacitor.isNativePlatform()) {
-      this.host = window.location.href
-    }
-    if (Capacitor.isNativePlatform() && window.location.href.indexOf('https://localhost') !== 0) {
-      const pathArray = window.location.href.split('/')
-      const orderId = pathArray[pathArray.length - 2]
-      this.$router.push({ name: 'UserPanel.ThankYouPage', params: { orderId } })
-      // document.location = window.location.href.replace('https://alaatv.com', 'alaa-app://alaatv.com')
-      //   .replace('http://alaatv.com', 'alaa-app://alaatv.com')
+    if (Capacitor.isNativePlatform() && window.location.href.indexOf('localhost') === -1) {
+      document.location = window.location.href.replace('https://alaatv.com', 'https://localhost/#')
     }
   },
   methods: {

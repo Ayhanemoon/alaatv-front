@@ -1,3 +1,186 @@
+## [1.20.9](https://git.alaatv.com/web/alaatv_front/compare/v1.20.8...v1.20.9) (2024-03-18)
+
+
+### Bug Fixes
+
+* ThankYouPage.vue for android app (finish) ([549d243](https://git.alaatv.com/web/alaatv_front/commit/549d243981f1731e8661196947b3a3d045cea2ab))
+
+## [1.20.8](https://git.alaatv.com/web/alaatv_front/compare/v1.20.7...v1.20.8) (2024-03-18)
+
+
+### Bug Fixes
+
+* debug ThankYouPage.vue for android app ([b0b2b93](https://git.alaatv.com/web/alaatv_front/commit/b0b2b932eac9a9000ff67195cf81c42c99b2b6cc))
+
+## [1.20.7](https://git.alaatv.com/web/alaatv_front/compare/v1.20.6...v1.20.7) (2024-03-18)
+
+
+### Bug Fixes
+
+* debug ThankYouPage.vue for android app ([d64b955](https://git.alaatv.com/web/alaatv_front/commit/d64b955c769d6469259087fc0209d76bad4a199c))
+
+## [1.20.6](https://git.alaatv.com/web/alaatv_front/compare/v1.20.5...v1.20.6) (2024-03-18)
+
+
+### Bug Fixes
+
+* debug ThankYouPage.vue for android app ([3b3ff09](https://git.alaatv.com/web/alaatv_front/commit/3b3ff096a59d1a4b5a8c7897791684fe73d9d241))
+
+## [1.20.5](https://git.alaatv.com/web/alaatv_front/compare/v1.20.4...v1.20.5) (2024-03-17)
+
+
+### Bug Fixes
+
+* debug ThankYouPage.vue for android app ([9853096](https://git.alaatv.com/web/alaatv_front/commit/9853096a22cdb781012d70c372e5767268cd8d6f))
+
+## [1.20.4](https://git.alaatv.com/web/alaatv_front/compare/v1.20.3...v1.20.4) (2024-03-17)
+
+
+### Bug Fixes
+
+* debug ThankYouPage.vue for android app ([d49d05c](https://git.alaatv.com/web/alaatv_front/commit/d49d05c8043ca6cb85f97617112dce60eddc4d51))
+
+## [1.20.3](https://git.alaatv.com/web/alaatv_front/compare/v1.20.2...v1.20.3) (2024-03-17)
+
+
+### Bug Fixes
+
+* debug ThankYouPage.vue for android app ([8e7f1da](https://git.alaatv.com/web/alaatv_front/commit/8e7f1da3e9ce19910f07322b299f18b134adc6f4))
+
+## [1.20.2](https://git.alaatv.com/web/alaatv_front/compare/v1.20.1...v1.20.2) (2024-03-17)
+
+
+### Bug Fixes
+
+* debug ThankYouPage.vue for android app ([f8fb65a](https://git.alaatv.com/web/alaatv_front/commit/f8fb65a4c86cb2047d8e486c3f489034d6ad3d79))
+
+## [1.20.1](https://git.alaatv.com/web/alaatv_front/compare/v1.20.0...v1.20.1) (2024-03-17)
+
+
+### Bug Fixes
+
+* debug ThankYouPage.vue for android app ([1d6d21d](https://git.alaatv.com/web/alaatv_front/commit/1d6d21d589e9df8bdd537c447d0931a70bcd381e))
+
+# [1.20.0](https://git.alaatv.com/web/alaatv_front/compare/v1.19.1...v1.20.0) (2024-03-17)
+
+
+### Features
+
+* add SinaPishraftRegisterForm ([522dc36](https://git.alaatv.com/web/alaatv_front/commit/522dc36136166e9fef156a608256415b19584fcb))
+
+## [1.19.1](https://git.alaatv.com/web/alaatv_front/compare/v1.19.0...v1.19.1) (2024-03-17)
+
+
+### Bug Fixes
+
+* debug android logout after payment ([d2a8ffd](https://git.alaatv.com/web/alaatv_front/commit/d2a8ffd0f6a265580bcb8323b51cae565e7afae6))
+
+# [1.19.0](https://git.alaatv.com/web/alaatv_front/compare/v1.18.27...v1.19.0) (2024-03-17)
+
+
+### Bug Fixes
+
+* debug android logout after payment ([f46cbd9](https://git.alaatv.com/web/alaatv_front/commit/f46cbd9275d9695c8c0050668d271640ab71dd73))
+
+
+### Features
+
+* ttsp content page -> prevent to show content body when is same with content title ([584208a](https://git.alaatv.com/web/alaatv_front/commit/584208a7b4ee91d8590135463dedf3f7744d0d06))
+
+## [1.18.27](https://git.alaatv.com/web/alaatv_front/compare/v1.18.26...v1.18.27) (2024-03-17)
+
+
+### Bug Fixes
+
+* debug android logout after payment ([052076d](https://git.alaatv.com/web/alaatv_front/commit/052076d8e1f019357c2dd28cf32cc3f2c16a240c))
+* ttsp content page - position of content body ([b573122](https://git.alaatv.com/web/alaatv_front/commit/b57312275403d7741004c6fa72ec3be89da256b2))
+
+## [1.18.26](https://git.alaatv.com/web/alaatv_front/compare/v1.18.25...v1.18.26) (2024-03-16)
+
+
+### Bug Fixes
+
+* change study_event param in dashboard ([#1012](https://git.alaatv.com/web/alaatv_front/issues/1012)) ([9beb437](https://git.alaatv.com/web/alaatv_front/commit/9beb4376ac4f9017b7e6839c966d0c41268780f5))
+* debug android logout after payment ([603bd18](https://git.alaatv.com/web/alaatv_front/commit/603bd182e04c79f790378a86a2e09a9677c9b6d1))
+
+## [1.18.25](https://git.alaatv.com/web/alaatv_front/compare/v1.18.24...v1.18.25) (2024-03-16)
+
+
+### Bug Fixes
+
+* debug android logout after payment ([f56b212](https://git.alaatv.com/web/alaatv_front/commit/f56b21268d26dd5b27769831a7a1f565d3b54528))
+
+## [1.18.24](https://git.alaatv.com/web/alaatv_front/compare/v1.18.23...v1.18.24) (2024-03-16)
+
+
+### Bug Fixes
+
+* debug android logout after payment ([61f07e3](https://git.alaatv.com/web/alaatv_front/commit/61f07e3e43ad23b32c8dc74adc4869e17c91038b))
+* debug android logout after payment ([16d6aad](https://git.alaatv.com/web/alaatv_front/commit/16d6aad345ff54d8f6af7c5210e8959359b0f466))
+
+## [1.18.23](https://git.alaatv.com/web/alaatv_front/compare/v1.18.22...v1.18.23) (2024-03-16)
+
+
+### Bug Fixes
+
+* debug android logout after payment ([6a1679e](https://git.alaatv.com/web/alaatv_front/commit/6a1679e2f6fecd08aa9ab1c31987aff3b7f63f67))
+
+## [1.18.22](https://git.alaatv.com/web/alaatv_front/compare/v1.18.21...v1.18.22) (2024-03-16)
+
+
+### Bug Fixes
+
+* debug android logout after payment ([108138d](https://git.alaatv.com/web/alaatv_front/commit/108138de2a86b25c26b939b73f6ea9e06a241cbb))
+
+## [1.18.21](https://git.alaatv.com/web/alaatv_front/compare/v1.18.20...v1.18.21) (2024-03-16)
+
+
+### Bug Fixes
+
+* debug android logout after payment ([c0d6b8c](https://git.alaatv.com/web/alaatv_front/commit/c0d6b8c51550e5c885d4d38a82f1a5ea5c5c14a4))
+* show playback rate button in mobile size ([#1011](https://git.alaatv.com/web/alaatv_front/issues/1011)) ([8ec7869](https://git.alaatv.com/web/alaatv_front/commit/8ec78695dc45c10939a1dc79a12644cfab20d0dd))
+
+## [1.18.20](https://git.alaatv.com/web/alaatv_front/compare/v1.18.19...v1.18.20) (2024-03-16)
+
+
+### Bug Fixes
+
+* chore(deps): bump follow-redirects from 1.15.3 to 1.15.6 ([#1008](https://git.alaatv.com/web/alaatv_front/issues/1008)) ([5c3e599](https://git.alaatv.com/web/alaatv_front/commit/5c3e5993ecb234d297119e00229d3adae33d12f8))
+* content manager prevent store 0 value ([#1009](https://git.alaatv.com/web/alaatv_front/issues/1009)) ([f5e37a8](https://git.alaatv.com/web/alaatv_front/commit/f5e37a814b2cd95ecc090caae4dad17ff59277b9))
+* debug android logout after payment ([505c57c](https://git.alaatv.com/web/alaatv_front/commit/505c57c3f1fb184684f940c4ef0c8541675eb657))
+* ttp dashboard use id instead of studyEventId ([#1010](https://git.alaatv.com/web/alaatv_front/issues/1010)) ([0b7edb8](https://git.alaatv.com/web/alaatv_front/commit/0b7edb81f7c9d4a5ab7a6fc436ed89b610a98445))
+
+## [1.18.19](https://git.alaatv.com/web/alaatv_front/compare/v1.18.18...v1.18.19) (2024-03-16)
+
+
+### Bug Fixes
+
+* debug logout after payment for native(android) app ([7dd6d67](https://git.alaatv.com/web/alaatv_front/commit/7dd6d67322a4da6cb4d679b95097a1e237fd7a43))
+
+## [1.18.18](https://git.alaatv.com/web/alaatv_front/compare/v1.18.17...v1.18.18) (2024-03-16)
+
+
+### Bug Fixes
+
+* check new version ([329d5ed](https://git.alaatv.com/web/alaatv_front/commit/329d5edc75e38189a0a812ca02da0bd7b226a587))
+* debug logout after payment for native(android) app ([497df94](https://git.alaatv.com/web/alaatv_front/commit/497df9420600133e0e406477609762fd257036ca))
+* debug logout after payment for native(android) app ([ec28925](https://git.alaatv.com/web/alaatv_front/commit/ec2892535333170e0f73a7dd4bcb5235f91799a4))
+
+## [1.18.17](https://git.alaatv.com/web/alaatv_front/compare/v1.18.16...v1.18.17) (2024-03-16)
+
+
+### Bug Fixes
+
+* debug logout after payment for native(android) app ([8bc5158](https://git.alaatv.com/web/alaatv_front/commit/8bc51581c31990dc05898b242f4d46e9e52e8c96))
+* payment for native(android) app ([cd5c7ec](https://git.alaatv.com/web/alaatv_front/commit/cd5c7ecb99196b025fb241025684379e1b88c39f))
+
+## [1.18.16](https://git.alaatv.com/web/alaatv_front/compare/v1.18.15...v1.18.16) (2024-03-16)
+
+
+### Bug Fixes
+
+* payment for native(android) app ([2fb1cbc](https://git.alaatv.com/web/alaatv_front/commit/2fb1cbcbe8f765e20c46f8ea7a88cdc106555186))
+
 ## [1.18.15](https://git.alaatv.com/web/alaatv_front/compare/v1.18.14...v1.18.15) (2024-03-16)
 
 

@@ -3,9 +3,6 @@
        class="cart-invoice main-content"
        :class="options.className"
        :style="options.style">
-    <!--    <div v-if="host">-->
-    <!--      ({{ host }})-->
-    <!--    </div>-->
     <div ref="CartInvoiceContainer"
          :key="CartInvoiceContainerKey"
          class="cart-invoice-container sidebar">
@@ -262,7 +259,6 @@ export default {
   emits: ['update:options'],
   data () {
     return {
-      host: null,
       gateways: new GatewayList(),
       couponLoading: false,
       referralCodeLoading: false,
@@ -377,9 +373,9 @@ export default {
 
       this.$router.push(this.ewanoCallbackUrlRouteObject)
     })
-    if (Capacitor.isNativePlatform()) {
-      this.host = window.location.href
-    }
+  },
+  beforeUnmount () {
+    window.removeEventListener('message', this.handleExternalNavigation)
   },
   methods: {
     updateEECEvent (value) {
@@ -475,7 +471,7 @@ export default {
     },
     cancelCoupon () {
       APIGateway.coupon.deleteCoupon()
-        .then(response => {
+        .then(() => {
           this.isCouponSet = false
           this.couponValue = ''
           this.cartReview()
@@ -491,7 +487,7 @@ export default {
       APIGateway.referralCode.DeleteReferralCodeFromOrder({
         order_id: this.cart.getOrderId()
       })
-        .then(response => {
+        .then(() => {
           this.isReferralSet = false
           this.giftCardValue = ''
           this.cartReview()
@@ -560,6 +556,7 @@ export default {
     },
     openCapacitorSite (url) {
       // window.open(url, '_blank')
+      // document.open(url, '_blank')
       //
       // const aTag = document.createElement('a')
       // aTag.href = url
